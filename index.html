@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+
+     <meta charset="utf-8">
+     <title>zadanie</title>
+
+     <meta name="description" content="Opis zawartości strony dla wyszukiwarek">
+     <meta name="keywords" content="słowa, kluczowe, opisujące, zawartość">
+     <meta name="author" content="Jan Programista">
+
+     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+     <link rel="stylesheet" href="style.css">
+     <script src="skrypt.js"></script>
+
+  </head>
+  <body>
+  
+  <div id="container">
+  
+  <div class="temp">
+  
+	  <h1>HIPERŁĄCZE</h1>
+	  </br>
+	  <h2>Odsyłacz do podstrony np:</h2>
+	  &lta href="względna ścieżka dostępu do podstrony">opis odsyłacza&lt/a>
+	  <h3><a href="względna ścieżka dostępu do podstrony">opis odsyłacza</a></h3>
+  
+  </div>
+  
+  <div class="temp">
+  
+  	  <h1>Otwieranie hiperłącza: atrybut target </h1>
+	  </br>
+	  <h2>Otwieranie hiperłącza w nowej karcie np:</h2>
+	  &lt target="_blank" href="adres">opis&lt/a>
+	  <h3> <a target="_blank" href="adres">opis</a> </h3>
+  
+  </div>
+  
+    <div class="temp">
+  
+  	  <h1>Obraz: img src alt width height  </h1>
+	  </br>
+	  <h2>Wstawianie obrazu z parametrami szer i wys oraz opisem np:</h2>
+	  &ltimg src="stock.jpg" width="300" height="250" alt="obrazek" />
+	  <img src="stock.jpg" width="300" height="250" alt="obrazek" />
+  
+  </div>
+    
+    <div class="temp">
+  
+  	  <h1>Paragraf: p, złamanie linii br   </h1>
+	  <br>
+	  <h2>Akapity tworzymy posługując się znacznikiem &ltp></h2>
+        <h2>Przeniesienie tekstu do nowej lini wykonujemy za pomocą znacznika &ltbr> </h2>
+	  
+  
+  </div>
+
+    <div class="temp">
+  
+  	  <h1>Nagłówki: h1 - h6  </h1>
+	  <br>
+	  <h3>Nagłówki tworzymy używając elementów od &lth1> do &lth6>. 
+         <br>Litera h jest skrótem od ang. słowa heading, czyli nagłówek. 
+        <br>Cyfry od 1 do 6 oznaczają hierarchię nagłówków, zaczynając od 1 jako najważniejszego w hierarchii.</h3>
+        
+        <h1>Nagłówek H1</h1>
+        <h2>Nagłówek H2</h2>
+        <h3>Nagłówek H3</h3>
+        <h4>Nagłówek H4</h4>
+        <h5>Nagłówek H5</h5>
+        <h6>Nagłówek H6</h6>
+	  
+  
+  </div>
+
+    <div class="temp">
+  
+  	  <h1>Listy: ul, ol, zagnieżdżone   </h1>
+	  <br>
+	  <h2>Znacznik &ltul> służy do stworzenia listy wypunktowanej.</h2>
+        <h2>Znacznik &ltol> służy do stworzenia listy numerowanej. </h2>
+
+        <div id="just">
+<ul>
+<li>element 1</li>
+<li>element 2</li>
+<li>element 3</li>
+</ul>
+        
+<ol>
+<li>element 1</li>
+<li>element 2</li>
+<li>element 3</li>
+</ol>
+        
+        <ol>
+        <li>Punkt 1</li>
+            <ul>
+                <li>Podpunkt 1</li>
+                <li>Podpunkt 2</li>
+                <li>Podpunkt 3</li>
+            </ul>
+            
+            
+        </ol>
+            
+        </div>
+            
+  
+  </div>
+
+ <div class="temp">
+  
+	  <h1>Tabele: table, tr, td</h1>
+	  <br>
+	  <h2>Tabele tworzymy przy użyciu elementu &lttable></h2>
+     	  <h3> Wiersze do tabeli dodajemy poprzez element &lttr> (ang. table row – wiersz tabeli).
+     <br>
+              Komórki tabeli dodajemy poprzez element &lttd> (ang. table data, table cell – dane tabeli, komórka tabeli). 
+     
+     </h3>
+     
+     <table border="1" bgcolor="lime">
+  <tr>
+    <td>1 wiersz 1 kolumna</td>
+    <td>1 wiersz 2 kolumna</td>
+      <td>1 wiersz 1 kolumna</td>
+      <td>1 wiersz 1 kolumna</td>
+  </tr>
+  <tr>
+    <td>2 wiersz 1 kolumna</td>
+    <td>2 wiersz 2 kolumna</td>
+      <td>1 wiersz 1 kolumna</td>
+      <td>1 wiersz 1 kolumna</td>
+  </tr>
+
+</table>
+     
+  </div>
+
+    <div class="temp">
+  
+  	  <h1>Tabele: scalanie rowspan, colspan</h1>
+	  <br>
+	  <h2>W celu zwiększenia rozpiętości poziomej komórki używamy atrybutu colspan (ang. column span – rozpiętość kolumnowa komórki).</h2>
+        <h2>W celu zwiększenia rozpiętości pionowej komórki używamy atrybutu rowspan (ang. row span – rozpiętość wierszowa komórki).</h2>
+        <h3>Za pomocą atrybutu rowspan możemy również scalić komórki kilku wierszy tabeli HTML w jedną komórkę.</h3>
+	  
+  </div>
+
+    <div class="temp">
+  
+  	  <h1>Tabele: thead, tbody, th </h1>
+	  <br>
+	  <h2> Znacznik &ltthead> służy do oddzielenia wierszy składających się na nagłówek tabeli od właściwej części tabel </h2>
+        <h2> Znacznik &lttbody> służy do oddzielenia wierszy tabeli będących jej właściwą zawartością od nagłówka tabeli  </h2>
+        <h3>Znacznik &ltth> służy do utworzenia komórki nagłówka tabeli. </h3>
+      
+        
+	  
+  </div>
+
+    <div class="temp">
+  
+  	  <h1>Element span: class, style, display block</h1>
+	  <br>
+	  <h2> Znacznik &ltspan> służy do zgrupowania elementów typu inline (np. słów w tekście albo obrazków), zazwyczaj w celu przypisania im określonego stylu.</h2>
+        <h2>Atrybuty znacznika span:</h2>
+        <h3>Class: Klasa CSS (lub lista klas) elementu</h3>
+        <h3>Style: Styl elementu (inline)</h3>
+        <h3>Display block: Za pomocą wartości block właściwości display możemy sprawić, że interesujący nas element HTML stanie się elementem HTML typu block.</h3>
+	  
+  </div>
+
+    <div class="temp">
+  
+  	  <h1>Formularze</h1>
+	  <br>
+	  <h2> Formularze na stronach WWW można obecnie spotkać prawie wszędzie - jedynie proste strony się bez nich obywają. Dzięki nim osoby odwiedzające stronę mogą wykonać wiele czynności, jak np. wysłać wiadomość do właściciela witryny, zarejestrować się, zalogować się do prywatnej części serwisu czy zakupić coś w sklepie internetowym.  </h2>
+        <h2>  </h2>
+        <h3> </h3>
+        
+        <div style="position:relative">
+<form enctype="text/plain" action="mailto:jozefwojtkowiaknajwiekszysmieszek@gmail.pl?subject=Temacik" method="post">
+<fieldset>
+<legend>Formularz - przykład <strong>pola tekstowego</strong></legend>
+<p><strong>Imię</strong>: <input type="text" name="Imie" value="Rafał" size="30" maxlength="40" style="position: absolute; left: 150px; background-color: cornsilk; font-style: italic; color: gray "></p>
+<p><strong>Nazwisko</strong>: <input type="text" name="Nazwisko" value="Majorczyk" size="30" maxlength="40" style="position: absolute; left:150px; background-color: cornsilk; font-style: italic; color: gray "></p>
+<p><strong>Zawód</strong>: <input type="text" name="Zawod" value="Informatyk XDDD" size="30" maxlength="40" style="position: absolute; left:150px; background-color: cornsilk; font-style: italic; color: gray "></p>
+</fieldset>
+</form>
+</div>
+	  
+  </div>
+
+    <div class="temp">
+  
+  	  <h1>Znacznik strong </h1>
+	  <br>
+	  <h2> Znacznik &ltstrong> służy do oznaczenia fragmentu tekstu który chcemy mocno zaakcentować. Przeglądarki zwykle wyświetlają go używając czcionki pogrubionej. </h2>
+       <br>
+	  <p>To jest <strong>bardzo ważne tur tur!</strong></p>
+  </div>
+
+    <div class="temp">
+  
+  	  <h1>Emfaza em</h1>
+	  <br>
+	  <h2> Specyficznym wyróżnieniem tekstu są znaczniki &ltem>&lt/em>, definiujące tzw. emfazę (ang. emphasis – nacisk w wymowie, emfaza) Kiedy kładziemy na jakieś słowa emfazę wypowiadając się, to znaczy to, iż celowo wypowiadamy te słowa ze zmienioną intonacją, gestykulacją, czy natężeniem głosu  </h2>
+        <h2> Np. </h2>
+        <h3>Dzisiaj dostałem <em>jedynkę</em> z matematyki </h3>
+	  
+  </div>
+
+ <div class="temp">
+  
+  	  <h1>Przypisy: small </h1>
+	  <br>
+	  <h2> Znacznik &ltsmall> zmienia format tekstu na mniejszy. Ten element nie jest co prawda oznaczony jako niezalecany, ale za pomocą arkuszy stylów CSS można uzyskać znacznie bardziej złożone formatowanie tekstu. </h2>
+        <h2> Np. </h2>
+        <h3><p>Ten tekst <small>jest mniejszy</small></p> </h3>
+	  
+  </div>
+
+ <div class="temp">
+  
+  	  <h1>Indeks górny sup, indeks dolny sub</h1>
+	  <br>
+	  <h2> Indeks górny uzyskujemy poprzez zastosowanie elementu &ltsup> (ang. superscript – indeks górny). Natomiast indeks dolny uzyskujemy poprzez zastosowanie elementu &ltsub> (ang. subscript – indeks dolny). </h2>
+        <h2><p>Ten wyraz jest w <sup>indeksie górnym</sup></p>
+        <p>Ten wyraz jest w <sub>indeksie dolnym</sub></p></h2>
+	  
+  </div>
+
+ <div class="temp">
+  
+  	  <h1>Cytowanie inline: q </h1>
+	  <br>
+	  <h2> &ltq> Oznacza cytowany krótki fragment.  </h2>
+        <h2> Np. </h2>
+        <h3> <p>10 lat po stwierdzeniu <q>640kB wystarczy każdemu</q> jego system operacyjny wymagał 64MB</p> </h3>
+	  
+  </div>
+
+ <div class="temp">
+  
+  	  <h1>Linia pozioma: hr </h1>
+	  <br>
+	  <h2> Jednym z elementów, który ułatwi nam przygotowanie przejrzystego układu dokumentu HTML jest znacznik linii poziomej &lthr>. Biegnie ona na całej szerokości strony bądź kontenera, w którym jest zdefiniowany. </h2>
+        <h2> Np.</h2>
+        <h3><hr> </h3>
+	  
+  </div>
+
+ <div class="temp">
+  
+  	  <h1>Zmiana postaci tekstu: b, i, u </h1>
+	  <br>
+	  <h2> Wytłuszczenie czcionki &ltb>, czcionka pochylona (ang. italic) &lti>, oraz podkreślenie (ang. underline) &ltu>. Przykład użycia: </h2>
+        <h2> <p>W studiu użyliśmy mikrofonu <b>Shure SM7B</b>.</p>
+
+ <p>Spojrzał w jej oczy i doświadczył mocnego uczucia <i>déjà vu</i>.</p>
+
+ <p>Kiedy karmisz Gizmo, upewnij się, że <u>nie minęła północ</u>.</p>  </h2>
+        
+	  
+  </div>
+
+  </div>
+  
+  </body>
+
+</html>
+
+
+
+
+

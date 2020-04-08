@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	background-color:#2F4172;
+	color: white;
+}
+
+#container
+{
+	margin-right:auto;
+	margin-left:auto;
+	
+	width: 1200px;
+	
+}
+
+.temp
+{
+	margin-top: 100px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:580px;
+	background-color: #7986AC;
+	text-align: center;
+	padding: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+#just
+{
+    text-align: left;
+}
+
+.temp:hover
+{
+
+	background-color: #8291bc;
+	
+}
